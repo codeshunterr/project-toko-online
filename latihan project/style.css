@@ -1,0 +1,61 @@
+html body {
+	margin: 0;
+	padding: 0;
+}
+
+.container{
+	max-width: 200px;
+	margin: 0px auto;
+	
+}
+
+.row1 {
+	margin-left: 7px;
+}
+
+.row2{
+	max-width: 200px;
+	height: 25px;
+}
+
+.produk{
+	border-radius: 10px;
+	box-shadow: 0.4px 0.4px 0.5px;
+	overflow: hidden;
+}
+
+.produk p{
+	margin-left: 5px;
+
+}
+
+a{
+	text-decoration: none;
+
+}
+
+a:link{
+	color: black;
+}
+
+a:visited{
+	color: black;
+}
+
+
+/*responsive*/
+@media (min-width: 1000px) {
+	.row2{
+		display: flex;
+		justify-content: space-evenly;
+		max-width: 1280px;
+		margin-left: px;
+	}
+
+	.produk {
+		border-radius: 10px;
+		box-shadow: 0.4spx 0.4px 0.4px;
+		overflow: hidden;
+		margin-left: 10px;
+	}
+}
